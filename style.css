@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+body {
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: #2874f0;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+}
+
+/* Products */
+.products, .cart {
+    background: white;
+    padding: 20px;
+    width: 48%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.products h2, .cart h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Product Card */
+.product {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    color: #222;
+}
+
+.product p {
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    background: #ff9f00;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #fb641b;
+    color: white;
+}
+#cart-badge {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 10px;
+    font-size: 14px;
+    margin-left: 8px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 220px;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.rating {
+    color: gold;
+}
+
+
+/* Cart Items */
+#cart-items div {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+/* Quantity buttons */
+#cart-items button {
+    margin: 5px;
+    padding: 4px 10px;
+}
+
+/* Total */
+.cart h3 {
+    margin-top: 15px;
+    color: green;
+}
