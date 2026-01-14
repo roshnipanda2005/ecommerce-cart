@@ -65,5 +65,5 @@ https://roshnipanda2005.github.io/ecommerce-cart/
 
 **Roshni Panda**  
 - GitHub: https://github.com/roshnipanda2005  
-- LinkedIn: https://linkedin.com/in/roshni-panda
+- LinkedIn: www.linkedin.com/in/roshni-panda-43a728306
    
